@@ -23,7 +23,7 @@ function Hero() {
   return (
     <section id="hero" className={style.container}>
       <div className={style.colorModeContainer}>
-        <img className={style.Hero} src={HeroImg} alt="hero img" />
+        <img className={style.hero} src={HeroImg} alt="hero img" />
         <img
           className={style.colorMode}
           src={themeIcon}

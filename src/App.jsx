@@ -3,6 +3,7 @@ import Hero from "./section/hero/Hero";
 import Project from "./section/project/Project";
 import Skills from "./section/skill/skill";
 import Contact from "./section/contact/Contact";
+import Footer from "./section/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Project />
       <Skills />
       <Contact />
+      <Footer />
     </>
   );
 }
