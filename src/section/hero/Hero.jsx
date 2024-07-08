@@ -9,7 +9,7 @@ import githubdark from "../../assets/github-dark.svg";
 import githublight from "../../assets/github-light.svg";
 import linkedindark from "../../assets/linkedin-dark.svg";
 import linkedinlight from "../../assets/linkedin-light.svg";
-import CV from "../../assets/cv.pdf";
+import pcv from "../../assets/pcv.jpg";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -52,7 +52,7 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href={CV} download>
+        <a href={pcv} download>
           <button className="hover">Resume</button>
         </a>
       </div>
