@@ -5,6 +5,7 @@ import futsal from "../../assets/futsal.png";
 import recipebook from "../../assets/recipebook.webp";
 import netflix from "../../assets/netflix.jpg";
 import ProjectCard from "../../common/ProjectCard";
+import Logo from "../../assets/food-delivery.jpg";
 
 function Project() {
   return (
@@ -22,6 +23,12 @@ function Project() {
           link="https://github.com/prithivi12/we_care"
           h3="We Care"
           p="Doctor appointing app"
+        />
+        <ProjectCard
+          src={Logo}
+          link="https://github.com/prithivi12/food-app"
+          h3="Tomato"
+          p="Food delivery app"
         />
         <ProjectCard
           src={recipebook}
