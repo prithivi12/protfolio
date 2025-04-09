@@ -26,7 +26,7 @@ function Project() {
         />
         <ProjectCard
           src={Logo}
-          link="https://github.com/prithivi12/food-app"
+          link="https://recipe-book-y7og.vercel.app/"
           h3="Tomato"
           p="Food delivery app"
         />
@@ -38,7 +38,7 @@ function Project() {
         />
         <ProjectCard
           src={netflix}
-          link="https://github.com/prithivi12/netflix-clone"
+          link="https://netflix-clone-woad-one.vercel.app/"
           h3="Netflix"
           p="Netflix clone"
         />
